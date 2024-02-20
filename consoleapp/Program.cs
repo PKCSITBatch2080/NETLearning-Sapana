@@ -12,14 +12,12 @@ long c= 42343428757878788;
 // char name='s';// single quote for character
 // string Name="Sapana";
 // bool isFemale= false;
-DateTime date= DateTime.Now;// now le chai current date time dinxa
+DateTime date= DateTime.Now; // now le chai current date time dinxa
 Console.WriteLine(date);
 
 Console.WriteLine(a);
 Console.WriteLine(b);
 Console.WriteLine(c);
-Console.WriteLine(d);
-int?  g =null;
+Console.WriteLine(d); 
+int? g =null;
 Console.WriteLine(g);
-
-
