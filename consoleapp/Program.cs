@@ -15,3 +15,8 @@ Generic g= new();
 g.Display<string>("sapana shrestha");
 g.Display<int>(303);
 
+Student sapana= new Student();
+Student smriti= new Student("smriti kc",123);
+sapana.RollNumber=5;
+
+
