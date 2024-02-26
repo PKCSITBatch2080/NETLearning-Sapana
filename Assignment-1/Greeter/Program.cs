@@ -16,10 +16,10 @@ int months = (totalDays % 365) / 30;
 int weeks = (totalDays % 365 % 30) / 7;
 int days = totalDays % 365 % 30 % 7;
 
-Console.WriteLine($"Hello, {fullName} Ji");
+Console.WriteLine($"Hello, {fullName} Ji!");
 
 Console.WriteLine($"Your DOB is {DOB.ToString("dddd, dd MMMM yyyy")}.");
 
-Console.WriteLine($"You are {years} years {months} months {weeks} weeks and {days} days old. \n");
+Console.WriteLine($"You are {years} years {months} months {weeks} weeks and {days} days old.");
 
 
