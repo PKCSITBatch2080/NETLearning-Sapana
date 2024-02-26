@@ -5,7 +5,7 @@ class Generic
 {
     public T Display<T>(T value)
     {
-        Console.WriteLine($"Value {value}");
+        Console.WriteLine($"Value: {value}");
         return value;
     }
 }

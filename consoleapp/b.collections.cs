@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 class Collection_learn
 {
     void Learn()
@@ -19,6 +21,24 @@ class Collection_learn
 
         // jagged array
         int[][] studentsInClassRooms= [[1,2,3],[3,4],[3,5,6,7]];
+
+        //  collection list==> list is a generic class
+        List<int>ageList=[2,3,4,5];// list of type int
+        List<string>nameList=["hello", "hii","byee"];// list of type string //O(n),n=40000000000
+        
+        // dictionary ==> key-value pair, this is also generic 
+        Dictionary<string,long> countryPopulation= new(); //jeyy should be unique
+        countryPopulation.Add("Nepal",3101111111);
+        countryPopulation.Add("India",31044441111);
+        countryPopulation.Add("China",310111155111);
+        countryPopulation.Add("USA",3101111111);
+
+        var p=countryPopulation["India"];// O(log n)
+
+
+
+
+
 
 
 
