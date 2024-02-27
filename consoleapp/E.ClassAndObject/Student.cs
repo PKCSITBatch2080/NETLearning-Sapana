@@ -22,7 +22,7 @@ class Student
     string address;
     //Auto Implemented property
     public string Address{get; set;} //this is property without logic 
-    DateTime dob;
+    DateTime Dob{get;} //this is read only property-> yesko value set garna mildaina
     public Student() // default constructor=> this is a method without return value
     {
 
@@ -36,10 +36,13 @@ class Student
     //property
     // get set value is a keyword
     
-     public void StudentInfo() // this is method
+     public virtual void StudentInfo() // this is method ,virtual keyword use garere yeslai overirde gana sakinxa
      {
         Console.WriteLine($"Student name = {name}");
         Console.WriteLine($"Student  rollnumber = {rollNumber}");
+        Console.WriteLine($"Student DateOfBirth :{Dob}");
+        Console.WriteLine($"Student Address :{Address}");
+
 
      }
 

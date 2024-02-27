@@ -15,8 +15,14 @@ Generic g= new();
 g.Display<string>("sapana shrestha");
 g.Display<int>(303);
 
-Student sapana= new Student();
+var Sapana= new Student();
 Student smriti= new Student("smriti kc",123);
-sapana.RollNumber=5;
+Sapana.RollNumber=5;
+//sapana.Dob=DateTime.Today; -> value of dob cannot be set 
+
+CSStudent rekha =new("Rekha Aryal",24,"Hospital Management System");
+var sapana =new CyberSecurityStudent("Sapana Shrestha",11, "HMS","RedHat");
+sapana.StudentInfo();
+
 
 
