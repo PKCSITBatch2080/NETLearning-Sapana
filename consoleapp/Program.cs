@@ -21,7 +21,8 @@ Sapana.RollNumber=5;
 //sapana.Dob=DateTime.Today; -> value of dob cannot be set 
 
 CSStudent rekha =new("Rekha Aryal",24,"Hospital Management System");
-var sapana =new CyberSecurityStudent("Sapana Shrestha",11, "HMS","RedHat");
+
+var sapana =new CyberSecurityStudent("Sapana Shrestha",11, "HMS","RedHat"); //this is instance of CyberSecurity class
 sapana.StudentInfo();
 
 

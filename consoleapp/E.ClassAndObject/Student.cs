@@ -4,7 +4,9 @@ class Student
 {
     string name;
     byte rollNumber;
-    public byte RollNumber
+        //property
+    // get set value is a keyword
+    public byte RollNumber //this is property
      {
         get 
         {
@@ -20,6 +22,7 @@ class Student
         }
      }
     string address;
+    
     //Auto Implemented property
     public string Address{get; set;} //this is property without logic 
     DateTime Dob{get;} //this is read only property-> yesko value set garna mildaina
@@ -33,8 +36,7 @@ class Student
         RollNumber=rn; //initialized garda nai property use garna sakinxa
 
     }
-    //property
-    // get set value is a keyword
+
     
      public virtual void StudentInfo() // this is method ,virtual keyword use garere yeslai overirde gana sakinxa
      {
