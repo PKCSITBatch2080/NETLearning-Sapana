@@ -2,7 +2,7 @@ using System;
 
 class Student
 {
-    string name;
+    public string name;
     byte rollNumber;
         //property
     // get set value is a keyword
@@ -25,7 +25,7 @@ class Student
     
     //Auto Implemented property
     public string Address{get; set;} //this is property without logic 
-    DateTime Dob{get;} //this is read only property-> yesko value set garna mildaina
+    public DateTime Dob{get;} //this is read only property-> yesko value set garna mildaina
     public Student() // default constructor=> this is a method without return value
     {
 
@@ -36,7 +36,13 @@ class Student
         RollNumber=rn; //initialized garda nai property use garna sakinxa
 
     }
+     public Student(string n, byte rn, DateTime dob) 
+    {
+        name= n; //initialized value of name
+        RollNumber=rn; 
+        Dob = dob;
 
+    }
     
      public virtual void StudentInfo() // this is method ,virtual keyword use garere yeslai overirde gana sakinxa
      {

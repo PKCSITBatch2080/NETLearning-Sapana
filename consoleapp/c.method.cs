@@ -15,7 +15,8 @@ class Methods
         return bmi;
     }
 
-    public double GetMax(params double[] numbers)=> numbers.Max(); // max is built-in method, params keyword user garera arrary jasari pathauna parena, call garna easy vayo
+    public double GetMax(params double[] numbers)=> numbers.Max();  
+    // max is built-in method, params keyword user garera arrary jasari pathauna parena, call garna easy vayo
     // params accept variable number of argument
 
     public (int,int) GetMinMax(params int[] numbers)

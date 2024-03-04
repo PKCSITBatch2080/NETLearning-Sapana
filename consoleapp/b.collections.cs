@@ -27,7 +27,7 @@ class Collection_learn
         List<string>nameList=["hello", "hii","byee"];// list of type string //O(n),n=40000000000
         
         // dictionary ==> key-value pair, this is also generic 
-        Dictionary<string,long> countryPopulation= new(); //jeyy should be unique
+        Dictionary<string,long> countryPopulation= new(); //keyy should be unique
         countryPopulation.Add("Nepal",3101111111);
         countryPopulation.Add("India",31044441111);
         countryPopulation.Add("China",310111155111);

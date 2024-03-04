@@ -11,11 +11,7 @@
 
         Customer customer = new();
         customer.CheckBalance();
-
-       
-
-
-       
+        
     }
         
  }

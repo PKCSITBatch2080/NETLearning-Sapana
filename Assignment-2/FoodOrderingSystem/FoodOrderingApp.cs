@@ -15,7 +15,7 @@ class FoodOrderingApp:Menu,IPaymentGateway
     {
         Console.WriteLine("there is sufficient balance");
     }
-    public void PayBill(float price)
+    public void CheckBalance(float price)
     {
         Console.WriteLine("Bill Paid");
     }
