@@ -24,11 +24,32 @@ class FileDirectoryHandling
           var fileP = $"{folderPath}\\Dummy\\{file}.cs";
           File.WriteAllText(fileP,"class " +  file + "{ }");
         }
+        //deleted all 10 files
+
+        for (int i = 1; i <= 10; i++)
+        {
+            var file =$"File{i}";
+            var fileName = $"{folderPath}\\Dummy\\{file}.cs";
+
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+                Console.WriteLine($"File '{fileName}' deleted.");
+            }
+            else
+            {
+                Console.WriteLine($"File '{fileName}' does not exist.");
+            }
 
          // reading
         string content = File.ReadAllText("D:\\Program.cs");
         var words = content.Split([' ', ',', '.', ':', '-']);
         Console.WriteLine(words.Length);
 
+        string genericsFile ="d.generics.cs"; //project bhitrai vako file read gareko
+        var fileContent = File.ReadAllText(genericsFile);
+        Console.WriteLine(fileContent);
+
     }
+}
 }
