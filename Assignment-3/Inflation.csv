@@ -83,13 +83,13 @@ East Asia,2021,1.1,%,East Asia,
 East Asia,2022,2.3,%,East Asia,
 East Asia,2023,2.3,%,East Asia,
 East Asia,2024,2,%,East Asia,
-"Hong Kong, China",2018,2.4,%,East Asia,HKG
-"Hong Kong, China",2019,2.9,%,East Asia,HKG
-"Hong Kong, China",2020,0.3,%,East Asia,HKG
-"Hong Kong, China",2021,1.6,%,East Asia,HKG
-"Hong Kong, China",2022,1.9,%,East Asia,HKG
-"Hong Kong, China",2023,2.3,%,East Asia,HKG
-"Hong Kong, China",2024,2.1,%,East Asia,HKG
+"Hong Kong China",2018,2.4,%,East Asia,HKG
+"Hong Kong China",2019,2.9,%,East Asia,HKG
+"Hong Kong China",2020,0.3,%,East Asia,HKG
+"Hong Kong China",2021,1.6,%,East Asia,HKG
+"Hong Kong China",2022,1.9,%,East Asia,HKG
+"Hong Kong China",2024,2.1,%,East Asia,HKG
+"Hong Kong China",2023,2.3,%,East Asia,HKG
 Mongolia,2018,6.8,%,East Asia,MNG
 Mongolia,2019,7.3,%,East Asia,MNG
 Mongolia,2020,3.7,%,East Asia,MNG
@@ -111,13 +111,13 @@ Republic of Korea,2021,2.5,%,East Asia,KOR
 Republic of Korea,2022,5.1,%,East Asia,KOR
 Republic of Korea,2023,3.2,%,East Asia,KOR
 Republic of Korea,2024,2,%,East Asia,KOR
-"Taipei,China",2018,1.4,%,East Asia,TWN
-"Taipei,China",2019,0.6,%,East Asia,TWN
-"Taipei,China",2020,-0.2,%,East Asia,TWN
-"Taipei,China",2021,2,%,East Asia,TWN
-"Taipei,China",2022,2.9,%,East Asia,TWN
-"Taipei,China",2023,2,%,East Asia,TWN
-"Taipei,China",2024,2,%,East Asia,TWN
+"Taipei China",2018,1.4,%,East Asia,TWN
+"Taipei China",2019,0.6,%,East Asia,TWN
+"Taipei China",2020,-0.2,%,East Asia,TWN
+"Taipei China",2021,2,%,East Asia,TWN
+"Taipei China",2022,2.9,%,East Asia,TWN
+"Taipei China",2023,2,%,East Asia,TWN
+"Taipei China",2024,2,%,East Asia,TWN
 South Asia,2018,3.7,%,South Asia,
 South Asia,2019,5,%,South Asia,
 South Asia,2020,6.5,%,South Asia,
@@ -209,13 +209,13 @@ Indonesia,2021,1.6,%,Southeast Asia,IDN
 Indonesia,2022,4.2,%,Southeast Asia,IDN
 Indonesia,2023,4.2,%,Southeast Asia,IDN
 Indonesia,2024,3,%,Southeast Asia,IDN
-Lao People�s Dem. Rep.,2018,2,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2019,3.3,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2020,5.1,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2021,3.8,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2022,23,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2023,16,%,Southeast Asia,LAO
-Lao People�s Dem. Rep.,2024,5,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2018,2,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2019,3.3,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2020,5.1,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2021,3.8,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2022,23,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2023,16,%,Southeast Asia,LAO
+Lao People's Dem. Rep.,2024,5,%,Southeast Asia,LAO
 Malaysia,2018,1,%,Southeast Asia,MYS
 Malaysia,2019,0.7,%,Southeast Asia,MYS
 Malaysia,2020,-1.1,%,Southeast Asia,MYS
