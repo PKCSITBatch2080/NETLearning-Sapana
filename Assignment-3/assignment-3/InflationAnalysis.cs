@@ -11,7 +11,7 @@ class InflationAnalysis
     {
         using (var reader = new StreamReader(filePath))
         {
-            reader.ReadLine(); // Skip header row
+            reader.ReadLine(); 
             string line;
             while ((line = reader.ReadLine()) != null)
             {
