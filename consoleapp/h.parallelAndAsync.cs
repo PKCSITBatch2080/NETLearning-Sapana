@@ -46,15 +46,12 @@ public class ParallelAndAsync
     }
     private async Task BoilWaterOnTeapot()
     {
-
     }
     private async Task PrepareMasala()
     {
-
     }
     private async Task<bool> AddIngrediants() //it return task of bool
     {
         return false;
-
     }
 }
