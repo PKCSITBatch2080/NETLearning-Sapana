@@ -6,7 +6,7 @@ public class ParallelAndAsync
 {
     // Parallel Programming
     // Tasks - that takes CPU time and independent
-    int[] numbers = [32342,234342, 345353, 234343, 575566, 5345345, 5657456];
+    int[] numbers = [5,6,8,10,15,65];
     private void CalculateSquares(int n)
     {
         var square = n * (long)n;
@@ -23,7 +23,7 @@ public class ParallelAndAsync
         }
     }
     // parallel loop
-    // Parallel  is faster
+    // Parallel  is faster -> improve performace, save time
      public void ProcessNumbersParallel()
     {
         Console.WriteLine("Parallel Loop:");
