@@ -25,7 +25,11 @@
 // var sapana =new CyberSecurityStudent("Sapana Shrestha",11, "HMS","RedHat"); //this is instance of CyberSecurity class
 // sapana.StudentInfo();
 
-FileDirectoryHandling.CreateFile(); //static member haru class ko hunxa object ko hunna
+// FileDirectoryHandling.CreateFile(); //static member haru class ko hunxa object ko hunna
+
+ParallelAndAsync pa = new();
+pa.ProcessNumbers();
+pa.ProcessNumbersParallel();
 
 
 
