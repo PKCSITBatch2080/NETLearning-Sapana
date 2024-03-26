@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollegeManager", "CollegeManager\CollegeManager.csproj", "{7E2C233D-4A50-44D4-B7F0-FA312E742637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "consoleapp", "consoleapp\consoleapp.csproj", "{B1528EC2-2A06-4BE0-B222-2EEE274E089C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignment-1", "Assignment-1", "{EEE054D3-CA7E-44C1-B4A8-46313336887E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greeter", "Assignment-1\Greeter\Greeter.csproj", "{4C4156AE-F7EC-4CCC-A542-B9AAA819D847}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignment-2", "Assignment-2", "{D26B143F-0787-4F24-ADF4-F01B999344E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrderingSystem", "Assignment-2\FoodOrderingSystem\FoodOrderingSystem.csproj", "{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignment-3", "Assignment-3", "{48B4794A-9BE6-48C2-A9B1-5A75056C901C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "assignment-3", "Assignment-3\assignment-3\assignment-3.csproj", "{AE374422-31EA-4663-AE28-4DAF951F10FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E2C233D-4A50-44D4-B7F0-FA312E742637}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2C233D-4A50-44D4-B7F0-FA312E742637}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2C233D-4A50-44D4-B7F0-FA312E742637}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2C233D-4A50-44D4-B7F0-FA312E742637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1528EC2-2A06-4BE0-B222-2EEE274E089C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1528EC2-2A06-4BE0-B222-2EEE274E089C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1528EC2-2A06-4BE0-B222-2EEE274E089C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1528EC2-2A06-4BE0-B222-2EEE274E089C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C4156AE-F7EC-4CCC-A542-B9AAA819D847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C4156AE-F7EC-4CCC-A542-B9AAA819D847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C4156AE-F7EC-4CCC-A542-B9AAA819D847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C4156AE-F7EC-4CCC-A542-B9AAA819D847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE374422-31EA-4663-AE28-4DAF951F10FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE374422-31EA-4663-AE28-4DAF951F10FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE374422-31EA-4663-AE28-4DAF951F10FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE374422-31EA-4663-AE28-4DAF951F10FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C4156AE-F7EC-4CCC-A542-B9AAA819D847} = {EEE054D3-CA7E-44C1-B4A8-46313336887E}
+		{BE8211FE-B501-4E19-BD1F-F2A5BA2CECDB} = {D26B143F-0787-4F24-ADF4-F01B999344E4}
+		{AE374422-31EA-4663-AE28-4DAF951F10FF} = {48B4794A-9BE6-48C2-A9B1-5A75056C901C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C00C8C1-EFED-4C8E-AE0E-C5A99624A388}
+	EndGlobalSection
+EndGlobal

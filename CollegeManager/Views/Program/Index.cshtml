@@ -1,0 +1,25 @@
+ @model List<CollegeProgram> // controller ko action bata list ko college program aaudai xa mention gardeko
+
+<h2>hi there</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Affiliation</th>
+      <th scope="col">StartedDate</th>
+    </tr>
+  </thead>
+  <tbody>
+  @foreach(var college in Model)
+  {
+    <tr>
+      <th scope="row">@college.Id</th>
+      <td>@college.Name</td>
+      <td>@college.Affiliation</td>
+      <td>@college.StartedDate</td>
+    </tr>
+  }
+  </tbody>
+</table>
