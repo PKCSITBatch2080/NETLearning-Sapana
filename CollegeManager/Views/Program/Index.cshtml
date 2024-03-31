@@ -1,18 +1,18 @@
  @model List<CollegeProgram> // controller ko action bata list ko college program aaudai xa mention gardeko
 
-<h2>hi there</h2>
+<a href="/program/add" class="btn btn-success" ><i class="bi bi-plus-lg"></i> New TechProgram</a>
 
 <table class="table">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">Id</th>
       <th scope="col">Name</th>
       <th scope="col">Affiliation</th>
       <th scope="col">StartedDate</th>
     </tr>
   </thead>
   <tbody>
-  @foreach(var college in Model)
+  @foreach(var college in Model) // list of college program = c1, c2, c3, c4
   {
     <tr>
       <th scope="row">@college.Id</th>

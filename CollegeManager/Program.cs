@@ -22,6 +22,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Program}/{action=Index}/{id?}"); //sabai vanda aghadi home controller ko index action run hunxa
+    pattern: "{controller=Home}/{action=Index}/{id?}"); //sabai vanda aghadi home controller ko index action run hunxa
 
 app.Run();

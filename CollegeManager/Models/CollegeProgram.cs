@@ -1,3 +1,4 @@
+// model ma data ko structure define hunxa
 public class CollegeProgram
 {
     public int Id { get; set; }
