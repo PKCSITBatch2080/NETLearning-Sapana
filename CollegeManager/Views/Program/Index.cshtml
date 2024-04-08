@@ -19,6 +19,14 @@
       <td>@college.Name</td>
       <td>@college.Affiliation</td>
       <td>@college.StartedDate</td>
+      <td>
+        <a href="/program/edit?id=@college.Id">
+            <i class="bi bi-pen text-warning"></i>        
+        </a>
+        <a href="/program/delete?id=@college.Id">
+        <i class="bi bi-trash text-danger"></i>
+        </a>
+      </td>
     </tr>
   }
   </tbody>
