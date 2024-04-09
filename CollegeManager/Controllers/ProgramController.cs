@@ -40,20 +40,29 @@ public class ProgramController : Controller
         db.SaveChanges();
         return RedirectToAction("Index");
     }
-
-    [HttpPost]
-    public IActionResult Delete(int id)
-    {
-        CollegeManagerDb db = new();
-        var program = db.CollegePrograms.Find(id);
-
-	    if (program != null)
-	    {
-            db.CollegePrograms.Remove(program);
-            db.SaveChanges();
-         }
-	return RedirectToAction("Index");
+[HttpGet]
+public IActionResult Delete(int id)
+{
+    CollegeManagerDb db = new();
+    var model = db.CollegePrograms.Find(id);
+    return View(model);
 }
+
+[HttpPost]
+[ActionName("Delete")]
+public IActionResult DeleteConfirmation(int id)
+{
+    CollegeManagerDb db = new();
+    var program = db.CollegePrograms.Find(id);
+    if (program != null)
+    {
+        db.CollegePrograms.Remove(program);
+        db.SaveChanges();
+    }
+    return RedirectToAction("Index");
+}
+
+   
 
 
 }
